@@ -26,8 +26,8 @@
 - 🎮 **Flappy Box (Java Game Project)**  
   Designed a 2D side-scroller using object-oriented design and custom collision logic.  
 
-- 🗺️ **Interactive Map**  
-  Developed an interactive JavaScript map of the Stanford campus with features and click events such as scroll, zoom, and double click to zoom on a fixed point.
+- 🗺️ **Image Manipulation**  
+  Developed a program in C that takes in PPM images and can perform the following operations on them: Rotate, Grayscale, Blend, Saturate, Blur, and Pointilism.
 
 ---
 
