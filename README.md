@@ -18,7 +18,7 @@
   Worked on multiple project teams that apply data science and statistical modeling to real-world sports data.  
   - 🏈 *Cleveland Browns Field Goal Analytics*: Built models to predict field-goal success probabilities based on Trackman data and worked with Browns R&S Team to evaluate kicking strategies.  
   - ⚽ *Soccer Defender Analytics*: Built a data-driven framework to evaluate and rank defenders using engineered performance metrics and predictive modeling.
-  - 📈 *Expected Possession Value (In Progress)*: Extending the EPV framework to evaluate soccer decision-making, incorporating player individuality, pitch control, and defensive pressure modeling.
+  - 📈 *Expected Possession Value*: Extending the EPV framework to evaluate soccer decision-making, incorporating player individuality, pitch control, and defensive pressure modeling.
 
 - ♟️ **Chess(C++)**  
   Implemented a playable chess engine in the terminal with move validation, search heuristics, and efficient tree-based logic.
