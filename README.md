@@ -15,7 +15,7 @@ I build machine learning and LLM systems and take them to production. Most of my
 ### On-device voice for clinical software
 **Medical Informatics Engineering, summer 2026**
 
-A three-stage voice stack (wake word detection, then speaker verification, then Whisper dictation) shipped into MIE's shared React design system. All inference runs in the browser through ONNX Runtime and WebAssembly in a Web Worker, so patient audio never leaves the device.
+A three-stage voice stack (wake word detection, then speaker verification, then Whisper dictation) shipped into MIE's shared React design system, [mieweb/ui](https://github.com/mieweb/ui). All inference runs in the browser through ONNX Runtime and WebAssembly in a Web Worker, so patient audio never leaves the device.
 
 <details>
 <summary>How the models got good</summary>
@@ -35,6 +35,8 @@ End-to-end latency stayed under 250ms throughout. I also picked this project up 
 Separately at MIE, I took an internal AI video editing tool from prototype to production on the company's Linux cluster, with a GitHub Actions pipeline and health-checked auto-rollback that deploys in under two minutes. It has run unattended since a customer conference.
 
 The interesting part was the agent. Instead of having the model rewrite a transcript directly, it emits validated edit operations against an immutable transcript snapshot. Every edit is auditable and reversible, and a malformed operation fails validation rather than silently corrupting the output.
+
+Most of the editor work itself is public in [mieweb/ui](https://github.com/mieweb/ui/commits/main/?author=jlocala1): a real undo and redo stack the editor never had, drag selection that follows the pointer past the pane and auto-scrolls at the edges, selection-wide playback speed with markers that survive a transcript rebuild, and a regression suite for the edge cases that kept biting. I also added a display-title metadata key to the resumable upload layer in [mieweb/pulsevault](https://github.com/mieweb/pulsevault) and wired it through [mieweb/pulse](https://github.com/mieweb/pulse).
 
 </details>
 
