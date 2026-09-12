@@ -33,10 +33,10 @@
 
 <table>
 <tr>
-<td align="center" width="25%"><h3>11% → 90%+</h3><sub>wake word recall on<br>non-American English</sub></td>
-<td align="center" width="25%"><h3>56% → 2%</h3><sub>cross-phrase<br>false triggers</sub></td>
+<td align="center" width="25%"><h3>11% to 90%+</h3><sub>wake word recall on<br>non-American English</sub></td>
+<td align="center" width="25%"><h3>56% to 2%</h3><sub>cross-phrase<br>false triggers</sub></td>
 <td align="center" width="25%"><h3>&lt; 250ms</h3><sub>end-to-end voice<br>latency, on-device</sub></td>
-<td align="center" width="25%"><h3>1 day → 90s</h3><sub>LiDAR traffic<br>reporting pipeline</sub></td>
+<td align="center" width="25%"><h3>1 day to 90s</h3><sub>LiDAR traffic<br>reporting pipeline</sub></td>
 </tr>
 </table>
 
