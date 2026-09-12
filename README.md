@@ -20,26 +20,13 @@
 
 | | Project | What it is | Code |
 |:--:|:--|:--|:--|
-| 🔊 | **On-device voice for clinical software**<br><sub>Medical Informatics Engineering · summer 2026</sub> | Wake word, speaker verification, and Whisper dictation running fully in-browser through ONNX Runtime and WebAssembly. Patient audio never leaves the device. | [mieweb/ui](https://github.com/mieweb/ui) |
+| 🔊 | **On-device voice for clinical software**<br><sub>Medical Informatics Engineering · summer 2026</sub> | Wake word, speaker verification, and Whisper dictation running fully in-browser through ONNX Runtime and WebAssembly. Patient audio never leaves the device, under 250ms end to end. | [mieweb/ui](https://github.com/mieweb/ui) |
 | 🎬 | **LLM editing agent**<br><sub>Medical Informatics Engineering · summer 2026</sub> | Emits validated, auditable edit operations against an immutable transcript snapshot instead of free text. Shipped with health-checked auto-rollback CI. | [mieweb/ui](https://github.com/mieweb/ui/commits/main/?author=jlocala1) · [pulsevault](https://github.com/mieweb/pulsevault) |
-| 🚦 | **LiDAR traffic safety pipeline**<br><sub>JHU smart intersection project · ongoing</sub> | Turns BlueCity and Ouster sensor feeds into automated safety reports, with a validation layer that rejects any LLM finding not backed by the underlying records. | private |
+| 🚦 | **LiDAR traffic safety pipeline**<br><sub>JHU smart intersection project · ongoing</sub> | Turns BlueCity and Ouster sensor feeds into automated safety reports, with a validation layer that rejects any LLM finding not backed by the underlying records. A full day of manual reporting now takes about 90 seconds. | private |
 | 🎙️ | **Speech and retrieval infrastructure**<br><sub>LaunchStack · Jan to May 2026</sub> | Speech-to-text pipeline with two interchangeable backends, plus document ingestion over a PostgreSQL and pgvector retrieval layer. | private |
 | ⚽ | **Expected Possession Value**<br><sub>JHU Sports Analytics · fall 2024 to May 2026</sub> | Recursively values every shot, pass, and dribble decision from MLS tracking data, personalized per player. | private |
 | 🏆 | **World Cup predictor**<br><sub>Independent</sub> | Calibrated model ensemble over 62 engineered features, with a Monte Carlo simulation of the real 2026 bracket. Test log loss 0.827. | [WorldCupPredictor](https://github.com/jlocala1/WorldCupPredictor) |
 | 🏥 | **AI for Surgery Lab**<br><sub>JHU · incoming fall 2026</sub> | ML that assesses operative technique from surgical video and motion data. | starting |
-
----
-
-## Results
-
-<table>
-<tr>
-<td align="center" width="25%"><h3>11% to 90%+</h3><sub>wake word recall on<br>non-American English</sub></td>
-<td align="center" width="25%"><h3>56% to 2%</h3><sub>cross-phrase<br>false triggers</sub></td>
-<td align="center" width="25%"><h3>&lt; 250ms</h3><sub>end-to-end voice<br>latency, on-device</sub></td>
-<td align="center" width="25%"><h3>1 day to 90s</h3><sub>LiDAR traffic<br>reporting pipeline</sub></td>
-</tr>
-</table>
 
 ---
 
